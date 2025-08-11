@@ -9,20 +9,36 @@
 <body>
     <header>
         <h1>Majora's Mask: Joya subestimada</h1>
-    <!-- Navegación -->
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="areas.html">Áreas</a></li>
-            <li><a href="personajes.html">Personajes</a></li>
-            <li><a href="mascaras.html">Máscaras</a></li>
-        </ul>
-    </nav>
+        <!-- Navegación Interpágina -->
+        <nav>
+            <h3>Páginas</h3>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="areas.html">Áreas</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="mascaras.html">Máscaras</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Navegación Interseccional -->
+        <nav>
+            <h3>Secciones</h3>
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#aspectos">Mejores Aspectos</a></li>
+                <li><a href="#trailer">Trailer</a></li>
+                <li><a href="#musica">Música</a></li>
+                <li><a href="#gameplay">Gameplay</a></li>
+                <li><a href="#guia">Guía Maestra</a></li>
+                <li><a href="#manga">Manga</a></li>
+                <li><a href="#enlaces">Enlaces de interés</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- Inicio -->
     <main>
         <!-- Introducción -->
-        <section>
+        <section id="introduccion">
             <img src="images/titulo.jpeg" alt="Majora's Mask" width="300">
             <article>
                 <h2>La continuación más pasada por alto</h2>
@@ -31,28 +47,28 @@
                     Por qué vive en la sombra de <i><b>Ocarina of Time</b></i>?
                 </p>
             </article>
-        </section>
-        <!-- Descripción -->
-        <section>
-            <h2>Qué tiene de especial?</h2>
-            <p>
-                Lanzada en el año 2000, Majora's Mask es en cierto modo una secuela de Ocarina of Time,
-                pero con un enfoque completamente diferente. Un ambiente más sombrío, una historia compleja y llena de secretos.
-                Donde Ocarina of Time es un clásico para toda la familia, Majora's Mask es una experiencia única para los fans de lo extraño y tenebroso.
-                No solo hablo de la historia y atmósfera, sino también de la jugabilidad.
-            </p>
-            <p>
-                La principal mecánica del juego es el <em>ciclo de tiempo</em>.
-                Cada tres días, el mundo se reinicia, y <i>Link</i> (el protagonista) debe usar esto para descubrir cómo salvar a la ciudad <i>Termina</i> de su destrucción, que llega al final del tercero.
-                La presión del tiempo añade una capa de tensión y urgencia que no se ve en otros juegos, tanto de la saga como de la industria en general. Pero también es extremadamente divertido. Diferentes cosas pasan en ciertos días y horarios, y hay mucho que hacer y descubrir explorando constantemente la ciudad y los alrededores.
-            </p>
-            <p>
-                Además, el juego cuenta con una gran variedad de máscaras que otorgan <em>habilidades especiales</em> a Link, pudiendo ir cambiando poderes a lo largo del juego para superar obstáculos.
-                Es realmente una experiencia única e involvidable.
-            </p>
+            <!-- Descripción -->
+            <article>
+                <h2>Qué tiene de especial?</h2>
+                <p>
+                    Lanzada en el año 2000, Majora's Mask es en cierto modo una secuela de Ocarina of Time,
+                    pero con un enfoque completamente diferente. Un ambiente más sombrío, una historia compleja y llena de secretos.
+                    Donde Ocarina of Time es un clásico para toda la familia, Majora's Mask es una experiencia única para los fans de lo extraño y tenebroso.
+                    No solo hablo de la historia y atmósfera, sino también de la jugabilidad.
+                </p>
+                <p>
+                    La principal mecánica del juego es el <em>ciclo de tiempo</em>.
+                    Cada tres días, el mundo se reinicia, y <i>Link</i> (el protagonista) debe usar esto para descubrir cómo salvar a la ciudad <i>Termina</i> de su destrucción, que llega al final del tercero.
+                    La presión del tiempo añade una capa de tensión y urgencia que no se ve en otros juegos, tanto de la saga como de la industria en general. Pero también es extremadamente divertido. Diferentes cosas pasan en ciertos días y horarios, y hay mucho que hacer y descubrir explorando constantemente la ciudad y los alrededores.
+                </p>
+                <p>
+                    Además, el juego cuenta con una gran variedad de máscaras que otorgan <em>habilidades especiales</em> a Link, pudiendo ir cambiando poderes a lo largo del juego para superar obstáculos.
+                    Es realmente una experiencia única e involvidable.
+                </p>
+            </article>
         </section>
         <!-- Mejores Aspectos -->
-        <section>
+        <section id="aspectos">
             <h2>Mejores aspectos del juego</h2>
             <ul>
                 <li>
@@ -81,6 +97,64 @@
                     <p>24 máscaras, cada una con una poder (y algunas <em>transformación</em>) especial.</p>
                 </li> 
             </ul>
+        </section>
+        <!-- Trailer -->
+        <section id="trailer">
+            <h2>Trailer</h2>
+            <iframe
+                width="560" height="315" src="https://www.youtube.com/embed/fTv_p5hEu0A"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </section>
+        <!-- Música -->
+        <section id="musica">
+            <h2>Música</h2>
+            <p>La música de Majora's Mask es una de las más memorables de la saga, con melodías que evocan la atmósfera única del juego.</p>
+            <iframe
+                data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/3bfVV7EPUPJGxpT2emyobB?utm_source=generator"
+                width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </section>
+        <!-- Gameplay -->
+        <section id="gameplay">
+            <h2>Gameplay</h2>
+            <p>Grabación completa del juego en su versión de Nintendo 64.</p>
+            <iframe
+                width="560" height="315" src="https://www.youtube.com/embed/mQPE-fwnp-o"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </section>
+        <!-- Guía -->
+        <section id="guia">
+            <h2>Guía Maestra para Nintendo 64</h2>
+            <iframe
+                src="https://archive.org/embed/Nintendo_Accion_Guia_Maestra_Zelda_Majora_Mask"
+                width="560" height="384" frameborder="0"
+                webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen>
+            </iframe>
+        </section>
+        <!-- Manga -->
+        <section id="manga">
+            <h2>Manga</h2>
+            <p>El manga de Majora's Mask, escrito por Akira Himekawa, traducido a inglés.</p>
+            <iframe
+                src="https://archive.org/embed/zelda-mm-manga-english-fan-translation"
+                width="560" height="384" frameborder="0"
+                webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen>
+            </iframe>
+        </section>
+        <!-- Enlaces -->
+        <section id="enlaces">
+            <h2>Enlaces de interés</h2>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora%27s_Mask" target="_blank">Wikipedia</a></li>
+                <li><a href="https://www.zelda.com/majoras-mask/" target="_blank">Sitio oficial de Nintendo</a></li>
+                <li><a href="https://zelda.fandom.com/es/wiki/The_Legend_of_Zelda:_Majora%27s_Mask" target="_blank">Fan Wiki Oficial</a></li>
+            </ul>
+        </section>
+        <!-- Link de Retorno -->
+        <section>
+            <a href="#top">Volver arriba</a>
         </section>
     </main>
     <footer>
